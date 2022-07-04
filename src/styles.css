@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+
+
+.container{
+    margin-top:10%;
+}
+
+.fa{
+    font-size: 12px;
+}
+
+
+.row{
+    margin: buttom 10px;
+}
+card-body{
+    background-color:aqua;
+}
+
+.jumbotron{
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  .border{
+    padding: 10px;
+  }
+  .btn{
+    margin-right: 10px;
+  }
+  #icon #icon1 #icon2 #icon3 {
+    margin-right: 5px;
+    font-size: 5px;
+  }
+  table .btn{
+    margin: 2px;
+  }

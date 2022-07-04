@@ -1,0 +1,33 @@
+
+   
+<div class="container">
+
+    <table class="table table-bordered table-striped">
+      <thead >
+      <tr>
+        <th> ID</th>
+        <th>description</th>
+        <th> price</th>
+        <th>category</th>
+        
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let friend of friends">
+        
+        <td><span>{{friend.id}}</span></td> 
+        <td><span>{{friend.description}}</span></td>
+        <td><span>{{friend.price}}</span></td>
+        <td><span>{{friend.category}}</span></td>
+        <td>
+          <button class="btn btn-sm btn-info">
+            <i id="icon1" class="fa fa-search"></i>Details</button>
+          <button class="btn btn-sm btn-warning">
+            <i id="icon2" class="fa fa-edit"></i>Edit</button>
+          <button class="btn btn-sm btn-danger">
+            <i id="icon3" class="fa fa-remove"></i>Delete</button>
+        </td>
+        </tr>
+      </tbody>
+    </table>
+  </div> 
